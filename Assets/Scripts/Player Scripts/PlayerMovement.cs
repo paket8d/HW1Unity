@@ -6,7 +6,7 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private GameSpeedController gameSpeedController;
+    [SerializeField] private GameManagerScript gameSpeedController;
     [Header("Movement")]
     [SerializeField] private float forwardSpeed = 1f;
     [SerializeField] private float sideSpeed = 1f;
